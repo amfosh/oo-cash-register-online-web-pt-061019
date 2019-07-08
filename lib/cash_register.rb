@@ -10,5 +10,6 @@ class CashRegister
   def add_item(title, price, quantity = 1)
     self.sale = [name, price, quantity]
     quantity.times do 
+      self.purchases
 end
     
