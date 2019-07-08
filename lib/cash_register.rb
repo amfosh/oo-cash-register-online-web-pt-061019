@@ -10,6 +10,7 @@ class CashRegister
   def add_item(title, price)
     if self.total > 1 
       i = 0 
-      while i
+      while i < quantity
+      
 end
     
