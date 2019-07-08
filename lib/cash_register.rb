@@ -11,6 +11,6 @@ class CashRegister
     if self.total > 1 
       i = 0 
       while i < quantity
-      
+      @@items << title 
 end
     
