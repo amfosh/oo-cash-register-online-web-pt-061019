@@ -14,5 +14,4 @@ class CashRegister
   end
     @sale = price * quantity
   end
-end
     
