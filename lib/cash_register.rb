@@ -12,6 +12,7 @@ class CashRegister
     @total += price * quantity
     @items << title
   end
-    @sale = 
+    @sale = price * quantity
+  end
 end
     
