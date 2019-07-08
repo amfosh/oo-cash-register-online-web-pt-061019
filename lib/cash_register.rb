@@ -3,7 +3,7 @@ class CashRegister
   
   def initialize(total = 0, options = {})
     @total = total
-    @options = discount
+    @discount = options
   end
 end
     
