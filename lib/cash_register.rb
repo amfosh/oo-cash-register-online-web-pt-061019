@@ -8,6 +8,7 @@ class CashRegister
   end
   
   def add_item(title, price)
-    if self.total 
+    if self.total > 1 
+      i = 0
 end
     
